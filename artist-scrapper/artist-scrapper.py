@@ -33,4 +33,5 @@ for i in range(len(artistList)):
         artist = artistList[i][0][3:]
         cleanList.append(artist)
 
-print(len(cleanList))
+for i in cleanList:
+    print(i)
